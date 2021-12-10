@@ -1,0 +1,152 @@
+
+header{
+    position: fixed;
+    left:0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+    background-color: rgb(255, 102, 0,9);;
+    padding: 0 15%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+header i{
+    transform: scale(1.5);
+
+ }
+h1{
+   margin: 0 auto;
+}
+img{
+    width: 150px;
+    height: 100px;
+}
+#gallery{
+    justify-content: center;
+    margin:50px 10%;
+    display:flex; 
+    padding: 50px 0;
+    
+}
+.item{
+    box-shadow:palegreen;
+    border: 1px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.item img{
+    margin: 10px;
+}
+.Available{
+    padding:0 10px;
+    color: green;
+
+}
+.addItem{ 
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 10px;
+    
+background-color: rgb(255, 102, 0);}
+.shop{
+    display: flex;
+    justify-content: space-around;
+align-items: center;
+margin-bottom: 30px;
+}
+
+h4{
+    text-align: center;
+}
+
+#shopitems{
+    margin: 0 10%;
+}
+#removeAll{
+    cursor: pointer;
+    width: 25px;
+    height: 25px;
+}
+#header {
+    display: flex;
+    justify-content:space-between;
+align-items: center;
+margin-bottom: 30px;
+margin: 0 10%;
+}
+#header h2{
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.shop{
+    border-bottom:1px solid ;
+}
+.item{
+    margin: 50px;
+    box-shadow:0 5px 5px transparent;
+    transform: scale(1.5); 
+
+}
+
+.plus,.newPrice{
+    font-size: 30px;  
+}
+.decrement ,.increment {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: rgb(255, 102, 0,2);
+
+    font-weight: bolder;
+    font-size: 1.2rem;    
+    border: none;
+}
+.decrement:hover , .increment:hover {
+    background-color: rgb(255, 102, 0,0.5);
+
+}
+button{
+    cursor: pointer;
+}
+[type="button"]{
+    border: none;
+    background-color: rgb(255, 102, 0);
+    padding: 10px;
+}
+[type="button"]:hover{
+    background-color: rgb(255, 102, 0,0.5);
+}
+
+.fa-heart{
+    color: white;
+    padding-left:50px;
+    cursor: pointer;
+}
+
+.totalsection{
+text-align: center;
+}
+
+.extra{
+    text-align: center;
+    width: 200px;
+    height: 300px;
+    position: relative;
+}
+.description{
+    display: none;
+    text-align: left;
+}
+.remove-extra{
+    position: absolute;
+    top: 0;
+    right: 0;
+ 
+    background-color: rgb(255, 102, 0);;
+    color: white;
+}
