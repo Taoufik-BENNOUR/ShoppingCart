@@ -53,9 +53,10 @@ for (let i = 0; i < removeItem.length; i++) {
     let price = Array.from(document.getElementsByClassName("price"));
     let quantity = Array.from(document.getElementsByClassName("quantity"));
   let total=0;
- 
     for (let i = 0; i < quantity.length; i++) {
-      total +=   Number(quantity[i].innerText) * Number(price[i].innerText) ;
+      let diff = price.length - quantity.length
+
+      total +=   Number(quantity[i].innerText) * Number(price[i+diff].innerText) ;
     }
   document.getElementById("total").innerHTML = ` ${total} DT`;
   }
